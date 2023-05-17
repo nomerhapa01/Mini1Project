@@ -1,0 +1,409 @@
+
+body{
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+a {
+  color: #444;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c96615;
+}
+
+#mainMenu .nav-link {
+  color: black;
+}
+
+.about-img{
+  width: 100%;
+  height: 100%;
+}
+#mainMenu .nav-link:hover {
+  color: #c96615;
+}
+
+.solid-border {
+  border: 2px solid red;
+}
+
+footer img {
+  width: 190px;
+  height: 40px;
+}
+
+.img-responsive {
+  /* display: block; */
+  width: 100%;
+  height: auto;
+}
+
+#about a {
+  color: #555;
+}
+
+#Explore img:hover {
+  opacity: 0.9;
+}
+
+/*--------------------------------------------------------------
+###################### Testimonials  ###########################
+--------------------------------------------------------------*/
+
+.testimonials .testimonials-carousel,
+.testimonials .testimonials-slider {
+  overflow: hidden;
+}
+
+.testimonials .testimonial-item {
+  box-sizing: content-box;
+  padding: 40px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  position: relative;
+  background: #fff;
+}
+
+.testimonials .testimonial-item .testimonial-img {
+  width: 90px;
+  border-radius: 50px;
+  border: 6px solid #fff;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+.testimonials .testimonial-item h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+}
+
+.testimonials .testimonial-item h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0;
+}
+
+.testimonials .testimonial-item .quote-icon-left,
+.testimonials .testimonial-item .quote-icon-right {
+  color: #ddd;
+  font-size: 26px;
+}
+
+.testimonials .testimonial-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.testimonials .testimonial-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+
+.testimonials .testimonial-item p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  margin: 15px 0 0 0;
+  padding: 0;
+}
+
+/*--------------------------------------------------------------
+###################### Gallery  ###########################
+--------------------------------------------------------------*/
+
+#gi1 a:hover img{
+ transform:scale(1.1);
+}
+
+#gi2 a:hover img{
+ transform:scale(1.1);
+}
+
+#gi3 a:hover img{
+transform:scale(1.1);
+}
+
+#gi4 a:hover img{
+transform:scale(1.1);
+}
+
+
+
+/* Rooms Timeline */
+
+.container-rooms{
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
+.page-section {
+  padding: 6rem 0;
+}
+.page-section h2.section-heading, .page-section .section-heading.h2 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.page-section h3.section-subheading, .page-section .section-subheading.h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin-bottom: 4rem;
+}
+
+
+.timeline {
+  position: relative;
+  padding: 0;
+  list-style: none;
+}
+.timeline:before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 40px;
+  width: 2px;
+  margin-left: -1.5px;
+  content: "";
+  background-color: #e9ecef;
+}
+.timeline > li {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 50px;
+}
+.timeline > li:after, .timeline > li:before {
+  display: table;
+  content: " ";
+}
+.timeline > li:after {
+  clear: both;
+}
+.timeline > li .timeline-panel {
+  position: relative;
+  float: right;
+  width: 100%;
+  padding: 0 20px 0 100px;
+  text-align: left;
+}
+.timeline > li .timeline-panel:before {
+  right: auto;
+  left: -15px;
+  border-right-width: 15px;
+  border-left-width: 0;
+}
+.timeline > li .timeline-panel:after {
+  right: auto;
+  left: -14px;
+  border-right-width: 14px;
+  border-left-width: 0;
+}
+.timeline > li .timeline-image {
+  position: absolute;
+  z-index: 100;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  margin-left: 0;
+  text-align: center;
+  color: white;
+  border: 7px solid #e9ecef;
+  border-radius: 100%;
+  background-color: #ffc800;
+}
+.timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
+  font-size: 10px;
+  line-height: 14px;
+  margin-top: 12px;
+}
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+  padding: 0 20px 0 100px;
+  text-align: left;
+}
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  right: auto;
+  left: -15px;
+  border-right-width: 15px;
+  border-left-width: 0;
+}
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  right: auto;
+  left: -14px;
+  border-right-width: 14px;
+  border-left-width: 0;
+}
+.timeline > li:last-child {
+  margin-bottom: 0;
+}
+.timeline .timeline-heading h4, .timeline .timeline-heading .h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.timeline .timeline-heading h4.subheading, .timeline .timeline-heading .subheading.h4 {
+  text-transform: none;
+}
+.timeline .timeline-body > ul,
+.timeline .timeline-body > p {
+  margin-bottom: 0;
+}
+
+
+/** our_room section **/
+
+
+.our-room {
+  text-align: center;
+}
+
+.our_room {
+  background-color: #f4f5f7;
+  padding: 20px 0 30px 15px;
+  margin-top: 90px;
+}
+
+.our_room .titlepage {
+  text-align: center;
+}
+
+.our_room .titlepage p {
+  color: #121212;
+  font-size: 17px;
+  margin-top: 20px;
+}
+
+.our_room .room {
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 30px;
+  transition: ease-in all 0.5s;
+}
+
+.our_room .room .room_img {
+  overflow: hidden;
+}
+
+.our_room .room .room_img figure {
+  margin: 0;
+}
+
+.our_room .room .room_img figure img {
+  width: 100%;
+  transition: all .5s;
+}
+
+.our_room .room .room_img figure img:hover {
+  transform: scale(1.2);
+}
+
+.our_room .room .bed_room {
+  padding: 33px 30px;
+}
+
+.our_room .room .bed_room h3 {
+  color: #121212;
+  font-size: 25px;
+  line-height: 20px;
+  font-weight: 500;
+  transition: ease-in all 0.5s;
+  margin: auto;
+}
+
+#serv_hover:hover.room {
+  cursor: pointer;
+  box-shadow: 0px 0px 30px #daad1a;
+  transition: ease-in all 0.5s;
+}
+
+
+/** end our_room section **/
+
+/** contact us section **/
+
+.contact {
+  background: #fff;
+  margin-top: 90px;
+}
+
+.title {
+  padding-top: 5.5rem;
+  text-align: center;
+
+}
+
+.main_form .contactus {
+  border: #fff solid 1px;
+  padding: 0 15px;
+  margin-bottom: 25px;
+  width: 100%;
+  height: 58px;
+  background: #fff;
+  color: #000000;
+  font-size: 18px;
+  font-weight: normal;
+  box-shadow: 2px 0px 6px rgba(255, 9, 9, 0.20);
+}
+
+.main_form .textarea {
+  border: #fff solid 1px;
+  margin-bottom: 25px;
+  width: 100%;
+  background: #fff;
+  color: #000000;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 12px 15px 0 15px;
+  box-shadow: 2px 0px 6px rgba(255, 9, 9, 0.20);
+  height: 150px;
+}
+
+.main_form .send_btn {
+  font-size: 22px;
+  transition: ease-in all 0.5s;
+  background-color: #000000;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px 0px;
+  max-width: 193px;
+  width: 100%;
+  display: block;
+  margin-top: 10px !important;
+  font-weight: 500;
+  border-radius: 50px;
+}
+
+.main_form .send_btn:hover {
+  background-color: #ffc800;
+  transition: ease-in all 0.5s;
+  color: #fff;
+}
+
+#request *::placeholder {
+  color: #000000;
+  opacity: 1;
+}
+
+.map figure {
+  margin: 0;
+}
+
+.map figure img {
+  width: 100%;
+}
+
+
+/** end contact us section **/

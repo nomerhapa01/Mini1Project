@@ -1,0 +1,59 @@
+.bg-brown{
+    background: #70513a;
+}
+
+.bg-lightbrown{
+    background:#f5d894;
+}
+
+.bg-darkred{
+    background: #822421;
+}
+
+.text-lightbrown{
+    color: #F5D894;
+}
+
+.text-bold-lightred{
+    /* color: #c0392b; */
+    color: #000;
+    font-weight:bold;
+}
+
+
+
+.section-header-font-style{
+    color: #daad1a;
+    font-size: 2.5rem;
+}
+
+.btn-bayler-primary{
+    background: #F5D894 ;
+    color: #000;
+}
+
+.btn-bayler-primary:hover{
+    background:  #c96615;
+    color:#000;
+}
+
+.btn-bayler-reservation{
+    background:  #c0392b;
+    color:#fff;
+}
+
+.btn-bayler-reservation:hover{
+    background:  #822421;
+    
+    color:#ccc;
+}
+
+.solid-border1{
+    border: 1px solid red;
+}
+
+.solid-border2{
+    border: 3px solid #822421;
+}
+
+

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Website's Description -->
+    <meta
+      name="description"
+      content="Bay-Ler Hotel is a luxurious beach hotel that offers a perfect getaway for individuals seeking a peaceful and refreshing experience. Situated on the beautiful sandy beaches, the resort provides an incredible view of the pacific ocean and a relaxing atmosphere.
+    "
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Stylesheet Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+
+    <!-- Website's Favorite Icon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Stylesheet for overiding Attributes of classes -->
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/utilities.css">
+
+    <title>Surfing | Bay-Ler View Hotel</title>
+  </head>
+  <body>
+    <!-- Header and navigation bar -->
+    <header id="header">
+      <nav
+      id="main_menu"
+      class="navbar navbar-expand-md navbar-light transparent bg-lightbrown fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            src="./images/logo-main.png"
+            alt="Bay-Ler View Logo"
+            width="150"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="mainMenu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li><a class="nav-link" href="./index.html">Home</a></li>
+            <li><a class="nav-link" href="./index.html#Explore">Explore</a></li>
+            <li><a class="nav-link" href="./rooms.html">Rooms</a></li>
+            <li><a class="nav-link" href="./index.html#Dining">Dining</a></li>
+            <li><a class="nav-link" href="./events.html">Events</a></li>
+            <li><a class="nav-link" href="./index.html#testimonials-section">Testimonials</a></li>
+            <li><a class="btn btn-bayler-reservation" href="./reservation.html">Reservation</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </header>
+
+      <!-- Hero Section/Carousel/Featured -->
+      <section id="surfing" class="py-5 mt-3">
+        <div class="container mb-5 mt-5">
+          <div class="row front-selector">
+            <div id="" class="col-md-6 mt-5 px-5 text-center">
+              <h1 >SURFING</h1>
+              <br>
+              <p >Surfing is the sport of riding waves in an upright or prone position. Surfers catch the ocean, river, or man-made waves and glide across the surface of the water until they break and lose their energy.</p>
+              <br>
+              <p>Don't know how to surf?</p>
+              <p>Don't have a board? </p>
+              <p>We got you!</p>
+              <a class="btn btn-bayler-reservation" href="./reservation.html">Reserve Now</a>
+            </div>
+           
+            <section id="surfing-gallery" class="carousel slide carousel-fade col-md-6 mt-5"data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#surfing-gallery"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#surfing-gallery"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#surfing-gallery"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#surfing-gallery"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./images/Gallery/s2.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Enjoy the calm waves</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./images/Gallery/s3.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Make a splash!</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./images/Gallery/s4.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Ride it out!</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./images/Gallery/s5.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <p>Photo finish</p>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#surfing-gallery"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span> 
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#surfing-gallery"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon" aria-hidden="true"></span> 
+                <span class="visually-hidden">Next</span>
+              </button>
+            </section>
+          </div>
+        </div>
+      </section>
+   
+
+   <!-- Start of Footer -->
+    <footer class="bd-footer py-5 mt-0 pb-sm-16 pt-sm-16 bg-brown">
+      <div class="container py-2">
+        <div class="row">
+          <div class="col-lg-3 mb-3">
+            <a
+              class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none"
+              href="#"
+              aria-label="Bay-Ler View Hotel"
+            >
+              <img src="./images/logo-main.png" alt="" />
+              <!-- <span class="fs-5">Bay-Ler View Hotel</span> -->
+            </a>
+            <ul class="list-unstyled small text-muted ">
+              <li class="mb-2 text-lightbrown">Buton Street, Barangay Sabang</li>
+              <li class="mb-2 text-lightbrown">Baler, Aurora, Philippines</li>
+              <li class="mb-2 text-lightbrown">+63 919 286 3105 / +63 927 363 8735</li>
+              <li class="mb-2 text-lightbrown">info@baylerviewhotel.com</li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+            <h5 class="text-uppercase text-bold-lightred">Links</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="./index.html" class="text-decoration-none text-lightbrown">Home</a>
+              </li>
+              <li class="mb-2">
+                <a href="./index.html#Explore" class="text-decoration-none text-lightbrown">Explore</a>
+              </li>
+              <li class="mb-2">
+                <a href="./rooms.html" class="text-decoration-none text-lightbrown">Rooms</a>
+              </li>
+              <li class="mb-2">
+                <a href="./events.html" class="text-decoration-none text-lightbrown">Events</a>
+              </li>
+              <li class="mb-2">
+                <a href="./index.html#testimonials-section" class="text-decoration-none text-lightbrown">Testimonials</a>
+              </li>
+              <li class="mb-2">
+                <a href="./contact.html" class="text-decoration-none text-lightbrown">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-lg-2 mb-3">
+            <h5 class="text-uppercase text-bold-lightred">Explore</h5>
+            <ul class="list-unstyled small text-muted">
+              <li class="mb-1">
+                <p class=" text-lightbrown">Museo de Baler</p>
+              </li>
+              <li class="mb-1">
+                <p class=" text-lightbrown">Baler Signage</p>
+              </li>
+              <li class="mb-1">
+                <p class=" text-lightbrown">Zabali Hanging Bridge</p>
+              </li>
+              <li class="mb-1">
+                <p class=" text-lightbrown">Diguisit Falls</p>
+              </li>
+              <li class="mb-1">
+                <p class=" text-lightbrown">Aniao Islet</p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-6 col-lg-2 mb-3">
+            <h5 class="text-uppercase text-bold-lightred">Navigation</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="./navigation.html" class="text-decoration-none text-lightbrown">Manila to Baler</a>
+              </li>
+              <li>&nbsp;</li>
+
+              <h5 class="text-uppercase text-bold-lightred">Branches</h5>
+            </ul>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <p class=" text-lightbrown">Sabang</p>
+              </li>
+              <li class="mb-2">
+                <p class="text-lightbrown">Suklayin</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2 mb-3">
+            <h5 class="text-uppercase text-bold-lightred">Get Inspired</h5>
+            <ul class="list-unstyled small text-muted">
+              <li class="mb-2">
+                <p class="text-lightbrown">To receive updates about exclusive experiences, events, new
+                destinations and more, please register your interest.
+                </p>
+              <li><a class="btn btn-bayler-primary" href="#">Sign Up</a></li>
+            </ul>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 pt-3">
+              <p class="text-center">
+               <hr class="text-lightbrown">
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 pt-3">
+              <p class="text-center text-lightbrown">
+                &copy 2023 Bay-Ler View Hotel. Developed by JMURK Tech
+                Solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Footer's Row Closing Tag-->
+      </div>
+      <!-- Container Closing Tag-->
+    </footer>
+    <!-- End of Footer -->
+
+    <!-- Bootstrap Scripting -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
