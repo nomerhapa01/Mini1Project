@@ -6,9 +6,6 @@
     background:#f5d894;
 }
 
-.bg-darkred{
-    background: #822421;
-}
 
 .text-lightbrown{
     color: #F5D894;
@@ -38,12 +35,14 @@
 }
 
 .btn-bayler-reservation{
-    background:  #c0392b;
-    color:#fff;
+    background:  #f8b45c;
+    color:#000;
+    border-radius: 5px;
+    border-color: #fff;
 }
 
 .btn-bayler-reservation:hover{
-    background:  #822421;
+    background:  #f3ebeb;
     
     color:#ccc;
 }

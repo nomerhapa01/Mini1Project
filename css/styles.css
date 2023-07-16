@@ -16,12 +16,13 @@ a:hover {
   color: black;
 }
 
+#mainMenu .nav-link:hover {
+  color: #c96615;
+}
+
 .about-img{
   width: 100%;
   height: 100%;
-}
-#mainMenu .nav-link:hover {
-  color: #c96615;
 }
 
 .solid-border {
